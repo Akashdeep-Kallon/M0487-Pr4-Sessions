@@ -41,7 +41,7 @@
         <input type="reset" value="Reset">
     </form>
 
-    <p>Current array:<?php echo implode(", ", $_SESSION['valores']); ?></p>
+    <p>Current array: <?php echo implode(", ", $_SESSION['valores']); ?></p>
 
     <?php
     if (isset($average)) {
